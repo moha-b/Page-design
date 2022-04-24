@@ -23,7 +23,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -49,21 +49,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1650702646373" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1650701865174">
+    <state width="1171" height="182" key="GridCell.Tab.0.bottom" timestamp="1650768671150">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1650701865174" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1650701865174">
+    <state width="1171" height="182" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1650768671150" />
+    <state width="1171" height="182" key="GridCell.Tab.0.center" timestamp="1650768671149">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1650701865174" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1650701865173">
+    <state width="1171" height="182" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1650768671149" />
+    <state width="1171" height="182" key="GridCell.Tab.0.left" timestamp="1650768671149">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1650701865173" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1650701865174">
+    <state width="1171" height="182" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1650768671149" />
+    <state width="1171" height="182" key="GridCell.Tab.0.right" timestamp="1650768671150">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1650701865174" />
+    <state width="1171" height="182" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1650768671150" />
   </component>
 </project>
