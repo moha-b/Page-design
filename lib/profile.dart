@@ -19,7 +19,7 @@ class ProfilePage extends StatefulWidget {
   State<ProfilePage> createState() => _ProfilePageState();
 }
 
-Color blue = Color(0xFFe493d5);
+Color blue = Color(0xFFE7C6FF);
 
 class _ProfilePageState extends State<ProfilePage> {
   @override
@@ -31,7 +31,6 @@ class _ProfilePageState extends State<ProfilePage> {
         children: [
           Column(
             children: [
-              //the curves
               Container(
                 child: Stack(
                   children: [
@@ -72,65 +71,82 @@ class _ProfilePageState extends State<ProfilePage> {
                               size: 38,
                               color: Colors.white,
                             ))),
-                    Container(
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.only(top: 240),
-                      child: Column(children: [
-                        Text("Mohab",style: TextStyle(fontSize: 30,color: blue),),
-                        Text("MohabKhalid21@gmail.com",style: TextStyle(fontSize: 15,color: blue),)
-                      ],),
-                    )
                   ],
                 ),
               ),
-              // Setting
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: Card(
-                  color: blue,child: InkWell(
+                  color: blue,
+                  child: InkWell(
+                      child: InkWell(
                     onTap: () {},
                     child: ListTile(
-                      leading: Icon(Icons.settings_outlined,color: Colors.white,),
+                      leading: Icon(
+                        Icons.settings_outlined,
+                        color: Colors.white,
+                      ),
                       title: Text(
                         "Settings",
-                        style: TextStyle(color:Colors.white),
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
-                  ),shape: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: blue)),
+                  )),
+                  shape: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20),
+                      borderSide: BorderSide(color: blue)),
                 ),
               ),
-              Divider(height: 20,),
+              Divider(
+                height: 20,
+              ),
               // personal Info
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: Card(
-                  color: blue,child: InkWell(
-                  onTap: () {},
-                  child: ListTile(
-                    leading: Icon(Icons.person_pin,color: Colors.white,),
-                    title: Text(
-                      "Edit Profile",
-                      style: TextStyle(color:Colors.white),
+                  color: blue,
+                  child: InkWell(
+                    onTap: () {},
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.person_pin,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        "Edit Profile",
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ),
-                ),shape: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: blue)),
+                  shape: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20),
+                      borderSide: BorderSide(color: blue)),
                 ),
               ),
-              Divider(height: 20,),
+              Divider(
+                height: 20,
+              ),
               // notifications
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: Card(
-                  color: blue,child: InkWell(
-                  onTap: () {},
-                  child: ListTile(
-                    leading: Icon(Icons.notifications,color: Colors.white,),
-                    title: Text(
-                      "Notifications",
-                      style: TextStyle(color:Colors.white),
+                  color: blue,
+                  child: InkWell(
+                    onTap: () {},
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.notifications,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        "Notifications",
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ),
-                ),shape: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: blue)),
+                  shape: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20),
+                      borderSide: BorderSide(color: blue)),
                 ),
               )
             ],
