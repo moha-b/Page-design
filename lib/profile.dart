@@ -19,7 +19,7 @@ class ProfilePage extends StatefulWidget {
   State<ProfilePage> createState() => _ProfilePageState();
 }
 
-Color blue = Color(0xFFE7C6FF);
+Color blue = Color(0xFF389795);
 
 class _ProfilePageState extends State<ProfilePage> {
   @override
@@ -79,19 +79,22 @@ class _ProfilePageState extends State<ProfilePage> {
                 child: Card(
                   color: blue,
                   child: InkWell(
+                      borderRadius: BorderRadius.circular(20),
                       child: InkWell(
-                    onTap: () {},
-                    child: ListTile(
-                      leading: Icon(
-                        Icons.settings_outlined,
-                        color: Colors.white,
-                      ),
-                      title: Text(
-                        "Settings",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
-                  )),
+                        onTap: () {},
+                        child: ListTile(
+                          shape: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(20)),
+                          leading: Icon(
+                            Icons.settings_outlined,
+                            color: Colors.white,
+                          ),
+                          title: Text(
+                            "Settings",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      )),
                   shape: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20),
                       borderSide: BorderSide(color: blue)),
