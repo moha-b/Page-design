@@ -3,8 +3,9 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:page_design/Login.dart';
+import 'package:page_design/home.dart';
 import 'package:page_design/profile.dart';
 
 void main() {
-  runApp(const Profile());
+  runApp(const home());
 }

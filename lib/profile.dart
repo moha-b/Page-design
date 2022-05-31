@@ -69,7 +69,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             icon: Icon(
                               Icons.arrow_back_rounded,
                               size: 38,
-                              color: Colors.white,
+                              color: Colors.amber,
                             ))),
                   ],
                 ),
